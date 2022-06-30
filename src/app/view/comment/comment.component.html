@@ -1,0 +1,9 @@
+<div>
+    <div class="w-50"><app-input [fc]="formName" [formData]="formDataInput"></app-input></div>
+    <div class="w-50"><app-input-email [fc]="formEmail" [formData]="formDataEmail"></app-input-email></div>
+    <app-textarea [fc]="formKomentar" [formData]="formDataTextArea"></app-textarea>    
+    <div class="btn-position">
+        <button class="btn-grey" (click)="reset()">{{dataComments.reset}}</button>
+    <button class="btn-brown" (click)="submit()">{{dataComments.submit}}</button>
+    </div>
+</div>

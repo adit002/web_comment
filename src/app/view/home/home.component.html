@@ -1,0 +1,18 @@
+    <app-header (onClickNac)="getDataClickNav($event)"></app-header>
+    <div class="row">
+        <div class="column1">
+            <div class="widthColumn1">
+                <app-topic></app-topic>
+                <h2>{{dataHome.text1}}</h2>
+                <app-content></app-content>
+                <h2>{{dataHome.text2}}</h2>
+                <app-comment></app-comment>
+            </div>
+            
+        </div>
+        <div class="column2" >
+         <app-side-content></app-side-content>
+        </div>
+      </div>
+    <app-login *ngIf="show.login" (closeModalLogin)="closeModalLogin($event)"></app-login>
+    <app-register *ngIf="show.register" (closeModalRegister)="closeModalRegister($event)"></app-register>

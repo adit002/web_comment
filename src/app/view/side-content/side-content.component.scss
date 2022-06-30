@@ -1,0 +1,29 @@
+h3{
+    font-family: 'custom_font_bold';
+}
+ul.numbered-list {
+    counter-reset: li;
+    list-style-type: none;
+    font-size: 14px;
+    line-height: 18px;
+    padding-left: 1px;
+    font-family: 'custom_font_regular';
+    li {
+      position: relative;   
+      padding: 5px 0 15px 40px;
+      
+      &:before {
+        content: counter(li);
+        counter-increment: li;
+        background-color: #635C53;
+        height: 20px;
+        width: 20px;
+        color: white;
+        text-align: center;
+        position: absolute;      
+        left: 0;
+        top: 4px;
+      }
+    }
+  }
+  

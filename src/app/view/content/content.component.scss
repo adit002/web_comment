@@ -1,0 +1,60 @@
+.iconDetails {
+  float: left;
+  height: 70px;
+  width: 70px;
+}
+
+.container {
+  width: 100%;
+  height: auto;
+  padding: 1%;
+  font-family: "custom_font_regular";
+}
+.containerchild {
+    width: 100%;
+    height: auto;
+    padding-left: 15%;
+    padding-top: 20px;
+    font-family: "custom_font_regular";
+  }
+.box{
+    margin-left: 60px;
+}
+.boxChild{
+    margin-left: 200px;
+}
+h4 {
+  margin-left: 40px;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: "custom_font_bold";
+}
+label {
+  font-family: "custom_font_regular";
+  margin-left: 30px;
+  font-size: 12px;
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+p {
+  margin-left: 40px;
+  margin-top: 5px;
+  margin-bottom: 0;
+}
+.point {
+  margin-left: 2px;
+}
+.arrowdown {
+  margin-left: 10px;
+}
+.vote {
+  margin-top: 10px;
+  margin-left: 40px;
+}
+i {
+  font-size: 25px;
+  cursor: pointer;
+}
+.comment{
+    margin-top: 50px;
+}

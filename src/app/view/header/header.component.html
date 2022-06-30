@@ -1,0 +1,36 @@
+<header>
+    <div class="head_container">
+        <div class="nav">
+            <div class="icon" (click)="clickSmallIconNav()"><a>&#9776;</a></div>
+            <div class="menu">
+                <div class="title"><h2>{{dataHeader.title}}</h2></div>
+                <div class="search"><input type="text" placeholder="Search"></div>
+                <div class="dropdown">
+                    <a class="dropbtn">{{dataHeader.menu1}}</a>
+                    <div class="dropdown-content">
+                      <a>{{dataHeader.submenu1}}</a>
+                      <a>{{dataHeader.submenu2}}</a>
+                      <a>{{dataHeader.submenu3}}</a>
+                      <a>{{dataHeader.submenu4}}</a>
+                      <a>{{dataHeader.submenu5}}</a>
+                    </div>
+                  </div>
+                 <ul>
+                    <li (click)="navClick('login')"><a>{{dataHeader.menu2}}</a></li>
+                    <li (click)="navClick('register')"><a>{{dataHeader.menu3}}</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</header>
+<div id="idSidenav" class="sidenav" *ngIf="showMobileMenu">
+    <a class="close" (click)="closeMobileNav()">&times;</a>
+    <a>{{dataHeader.menu1}}</a>
+    <a class="submenu">{{dataHeader.submenu1}}</a>
+    <a class="submenu">{{dataHeader.submenu2}}</a>
+    <a class="submenu">{{dataHeader.submenu3}}</a>
+    <a class="submenu">{{dataHeader.submenu4}}</a>
+    <a class="submenu">{{dataHeader.submenu5}}</a>
+    <a (click)="navClick('login')">{{dataHeader.menu2}}</a>
+    <a (click)="navClick('register')">{{dataHeader.menu3}}</a>
+  </div>
