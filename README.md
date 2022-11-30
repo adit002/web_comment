@@ -1,27 +1,34 @@
-# Suitmedia
+# Build News Website With Node.js, Express & EJS - WP Rest API
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.3.
+This was created as part of YouTube Video. Links below
 
-## Development server
+![GitHub Logo](https://raddy.dev/wp-content/uploads/2020/09/nodejs-news-website-rest-api_compressed.jpg)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Installation
 
-## Code scaffolding
+To run this project, install it locally using npm:
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+```
+$ npm install
+$ npm start
+```
 
-## Build
+### YouTube Video & Article
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+[Node.js News Website](https://youtu.be/EkQc-8uzxIA)
 
-## Running unit tests
+[Read Article](https://raddy.dev/blog/build-news-website-with-node-js-express-ejs-wp-rest-api/)
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+### YouTube Channel - RaddyTheBrand
 
-## Running end-to-end tests
+[Subscribe to my YouTube Channel](https://www.youtube.com/channel/UCvXscyQ0cLzPZeNOeXI45Sw?sub_confirmation=1)
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+### Website
 
-## Further help
+[www.raddy.dev](https://www.raddy.dev)
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+### Donations
+
+[Via Paypal](https://www.paypal.me/RadoslavAngelov)
+
+[Buy me a Coffee](https://www.buymeacoffee.com/RaddyTheBrand)
