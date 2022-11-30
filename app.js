@@ -9,6 +9,7 @@ app.use(express.static('public'))
 app.use('/css', express.static(__dirname + 'public/css'))
 app.use('/imgages', express.static(__dirname + 'public/imgages'))
 app.use('/js', express.static(__dirname + 'public/js'))
+app.use('/file', express.static(__dirname + 'public/file'))
 
 // Templating Engine
 app.set('views', './src/views')
