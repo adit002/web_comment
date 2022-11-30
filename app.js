@@ -1,11 +1,23 @@
-const http = require('http');
-const express = require('express');
-const route = require('./src/routes/routes');
-const app = express();
-app.use(express.static('public'));
-app.use('/',route);
-app.use((req, res,next)=>{
-   res.status(404).send('<h1> Page not found </h1>');
-});
-const server = http.createServer(app);
-server.listen(3000);
+const express = require('express')
+const bodyParser = require('body-parser')
+
+const app = express()
+const port = 5000
+
+// Static Files
+app.use(express.static('public'))
+app.use('/css', express.static(__dirname + 'public/css'))
+app.use('/imgages', express.static(__dirname + 'public/imgages'))
+app.use('/js', express.static(__dirname + 'public/js'))
+
+// Templating Engine
+app.set('views', './src/views')
+app.use(bodyParser.urlencoded({ extended: true }))
+
+// Routes
+const newsRouter = require('./src/routes/routes')
+
+app.use('/', newsRouter)
+
+// Listen on port 5000
+app.listen(process.env.PORT || port, () => console.log(`Listening on port ${port}`))
