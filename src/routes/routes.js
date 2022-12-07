@@ -56,6 +56,7 @@ newsRouter.get('/berita_detail3', (req, res,next)=>{
 newsRouter.get('/berita_detail4', (req, res,next)=>{
    res.sendFile(path.join(__dirname,'../views/','berita_detail4.html'));
 });
+
 newsRouter.get('/berita_detail5', (req, res,next)=>{
    res.sendFile(path.join(__dirname,'../views/','berita_detail5.html'));
 });
