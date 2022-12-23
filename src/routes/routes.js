@@ -44,18 +44,6 @@ newsRouter.get('/keluhan-4', (req, res,next)=>{
 newsRouter.get('/berita', (req, res,next)=>{
    res.sendFile(path.join(__dirname,'../views/','berita.html'));
 });
-newsRouter.get('/berita_detail1', (req, res,next)=>{
-   res.sendFile(path.join(__dirname,'../views/','berita_detail1.html'));
-});
-newsRouter.get('/berita_detail2', (req, res,next)=>{
-   res.sendFile(path.join(__dirname,'../views/','berita_detail2.html'));
-});
-newsRouter.get('/berita_detail3', (req, res,next)=>{
-   res.sendFile(path.join(__dirname,'../views/','berita_detail3.html'));
-});
-newsRouter.get('/berita_detail4', (req, res,next)=>{
-   res.sendFile(path.join(__dirname,'../views/','berita_detail4.html'));
-});
 
 newsRouter.get('/berita_detail5', (req, res,next)=>{
    res.sendFile(path.join(__dirname,'../views/','berita_detail5.html'));
